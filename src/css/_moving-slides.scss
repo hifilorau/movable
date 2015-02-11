@@ -1,0 +1,48 @@
+.reorder-container {
+ margin-left: 2em;
+ display: inline-block;
+
+}
+
+
+.slide {
+  min-height: 5.3em;
+  background: blue;;
+  width: 12em;
+  left: 3em;
+  cursor: pointer;
+  position: relative;
+  margin-bottom: 1em;
+}
+
+
+.slide-1 {
+
+
+}
+
+.slide-2 {
+  background: green;
+
+
+}
+
+.slide-3 {
+  background: orange;
+
+}
+
+.slide-4 {
+  background: purple;
+}
+
+.moving-slide {
+  background: black;
+  opacity: .7;
+}
+
+.slide-number {
+  position: absolute;
+  left: -30px;
+  font-size: 1.3em;
+}
