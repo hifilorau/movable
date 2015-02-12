@@ -2,9 +2,9 @@
 // adding in the ability to snap items
 app.bigSlideMove = function () {
 
-  $('.big-slide').droppable({
-        tolerance: 'fit'
-  });
+  // $('.big-slide').droppable({
+  //       tolerance: 'fit'
+  // });
 
 
 
@@ -16,13 +16,15 @@ app.bigSlideMove = function () {
         }
   });
 
-  $('.draggable-item').droppable({
+  $('.draggable-item sandbox').droppable({
         greedy: true,
         tolerance: 'touch',
         drop: function(event,ui){
             ui.draggable.draggable('option','revert',true);
         }
   });
+
+
 
   $('.draggable-item').resizable({
         containment: 'parent'

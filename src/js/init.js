@@ -1,4 +1,4 @@
 $(function () {
-  app.bigSlideMove();
+  app.readmoreFly();
   app.reorderSlides();
 });

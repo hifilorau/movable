@@ -1,15 +1,42 @@
-main {
 
-  position: relative;
-  border: 2px solid blue;
-  border-radius: .5em;
-  width: 85%;
-  margin: 6em auto;
-  padding: 1em;
+
+body {
+  background:#f6f2f2 ;
 }
 
-header {
-  position: absolute;
-  top: 20px;
-  left: 5em;
+
+main {
+  position: relative;
+  border: 2px solid black;
+  border-radius: .5em;
+  width: 95%;
+  margin: .5em auto;
+  padding: 1em;
+  height: 550px;
+  background-color: #fffaf4;
+  font-family: 'Open Sans', sans-serif;
+}
+
+// header {
+//   height: 50px;
+//   background-color: #93cc64
+//
+// }
+
+.sandbox-wrapper {
+  display: absolute;
+  top: 1em;
+  left: 2em;
+  width: 29%;
+}
+
+.sandbox {
+  padding-top: .5em;
+  margin-top: 1em;
+  height: 500px;
+  position: relative;
+  background: $primary-item-color;
+  border-radius: .3em;
+  border: 1px solid black;
+
 }

@@ -1,12 +1,7 @@
 app.reorderSlides = function () {
 
-  console.log("Might get my sort on");
-
-  $(".reorder-container").sortable({
-        axis: 'y',
-        containment: "parent"
+     $('.sortable').sortable({
+          connectWith: '.sortable'
      });
-
-   $(".reorder-container").disableSelection();
 
 };
