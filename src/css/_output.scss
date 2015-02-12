@@ -18,6 +18,16 @@ $primary-item-color: #e4e4e4;
   border-radius: .5em;
 }
 
+.output-highlights {
+  position: absolute;
+  width: 98%;
+  height: 60px;
+  background-color: #d0fb27;
+  opacity: .7;
+  left: 2px;
+  top: 225px;
+}
+
   //
   // .draggable-item {
   //   position: absolute;
